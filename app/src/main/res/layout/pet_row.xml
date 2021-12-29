@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pet_row"
+    android:clickable="true"
+    app:layout_constrainedHeight="true">
+
+    <ImageView
+        android:id="@+id/arrowToRight"
+        android:layout_width="46dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/arrowToRight"
+        app:srcCompat="@drawable/ic_arrow_to_right" />
+
+    <TextView
+        android:id="@+id/txtPetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@id/petProfileRow"
+        android:text="@string/petName_Row_Desc"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/petProfileRow"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@id/arrowToRight"
+        android:contentDescription="@string/petMiniature"
+        app:srcCompat="@drawable/ic_baseline_pets_24" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Mi álbum de mascotas</string>
+    <!-- Strings related to login -->
+    <string name="txtInputUsuario">Nombre de usuario</string>
+    <string name="txtInputContraseña">Contraseña</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Usuario no válido</string>
+    <string name="invalid_password">Mayor a 5 caracteres</string>
+    <string name="login_failed">"Fallo en inicio de sesíon"</string>
+    <string name="txtTitulo">"Álbum de mascotas"</string>
+    <string name="swRecuerdame">"Recuérdame"</string>
+    <string name="txtRegistrarse">"Registrarse"</string>
+    <string name="txtIngresar">"Login"</string>
+
+    //menu
+    <string name="menu_CerrarSesion">"Cerrar Sesión"</string>
+
+    //Activity_Options
+    <string name="iconPets">"SVG pets"</string>
+    <string name="btnMyPets">"Mis mascotas"</string>
+    <string name="btnAddPet">"Nueva"</string>
+    <string name="title_activity_options">"Mi álbum de mascotas"</string>
+
+    //Activity My pets
+    <string name="title_activity_my_pets">Mis Mascotas</string>
+    <string name="action_settings">Settings</string>
+
+    //pet's row
+    <string name="arrowToRight">Arrow to right</string>
+    <string name="petMiniature">"Pet's miniature"</string>
+    <string name="petName_Row_Desc">Aqui irán los nombres mascotas</string>
+    <string name="petProf_Row_Desc">Aqui ira una miniatura de la mascota</string>
+
+    //addPetsActivity
+    <string name="txtMascotanombre">Nombre de mascota</string>
+    <string name="txtMascotaDetalle">Descripción de mascota</string>
+    <string name="imgMascotaNuevo">Imagen de mascota</string>
+    <string name="txtTitleAddPet">Nueva Mascota</string>
+    <string name="txtAddImage">Añadir foto:</string>
+
+</resources>
